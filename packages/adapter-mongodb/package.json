@@ -27,23 +27,23 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/pilcrowOnPaper/lucia",
+		"url": "https://github.com/jrollio/lucia",
 		"directory": "packages/adapter-mongodb"
 	},
-	"author": "pilcrowonpaper",
+	"author": "jrollio",
 	"license": "MIT",
 	"exports": {
 		".": "./dist/index.js"
 	},
 	"peerDependencies": {
 		"lucia": "3.x",
-		"mongodb": "4.x | 6.x"
+		"mongodb": ">=4.x"
 	},
 	"devDependencies": {
 		"@lucia-auth/adapter-test": "workspace:*",
 		"dotenv": "^16.0.3",
 		"tsx": "^3.12.6",
-		"mongodb": "^4.1.1",
+		"mongodb": ">=4.1.1",
 		"lucia": "workspace:*",
 		"mongoose": "^6.0.11"
 	}

@@ -24,10 +24,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/pilcrowOnPaper/lucia",
+		"url": "https://github.com/jrollio/lucia",
 		"directory": "packages/adapter-test"
 	},
-	"author": "pilcrowonpaper",
+	"author": "jrollio",
 	"license": "MIT",
 	"exports": {
 		".": "./dist/index.js"
@@ -41,6 +41,6 @@
 	},
 	"dependencies": {
 		"mocha": "^10.2.0",
-		"oslo": "0.28.2"
+		"oslo": ">=0.28.2"
 	}
 }
